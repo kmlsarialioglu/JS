@@ -11,9 +11,9 @@ const euroDun=11.2
 // console.log(euroDun)
 
 console.log(dolarDun)
-//array leri çoğol isimlendir, array içinde array içinde array de dahil tüm formatlarda veri girişi yapabilirsin, 
-//camelCasing ilk kelime küçük harf
-//Pascalcasing ilk harfler büyük
+//array leri çoğul isimlendir, array içinde array içinde array de dahil tüm formatlarda veri girişi yapabilirsin, 
+//camelCasing ilk kelime küçük harf sonrakikelimeler büyük harkle başlar
+//Pascalcasing tüm kelimelerin ilk harfleri büyük
 //let konutKrediliri=["Konut Kredisi","Emlak Konut Kredisi","Kamu Konut Kredisi"["a",2]]
 let konutKredileri=["Konut Kredisi","Emlak Konut Kredisi","Kamu Konut Kredisi","Özel Konut Kredisi"]
 console.log("<ul>")
@@ -47,6 +47,7 @@ let showProducts=function(id,...products){
 
 //console.log(typeof showProducts) Rest Parametresi verileri array olarak tutmamızı sağlar
 //showProducts(10,"Elma","Armut","Ayva")
+
 //spread
 let points=[1,2,3,4,5,6,50,13,75]
 console.log(...points)
